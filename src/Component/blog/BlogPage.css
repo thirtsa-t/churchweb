@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+.blogContainer {
+  /* border: 1px solid black; */
+  
+}
+.blogheader {
+  font-size: 20px;
+ text-align: center;
+  padding: 10px;
+}
+.blogRow {
+  margin: 0 -5px;
+}
+/* Create three unequal columns that floats next to each other */
+.column1 {
+  float: left;
+  padding: 0 10px;
+  height: 500px;
+}
+
+.right {
+  width: 30%;
+}
+.left {
+  width: 30%;
+}
+
+.middle {
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.blogRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Content {
+  background-color: rgb(241, 226, 226);
+}
+.blog {
+  display: flex;
+  width: 100%;
+}
+.blogContent {
+  display: flex;
+  width: 55%;
+
+  flex-wrap: wrap;
+  margin: 0 50px;
+
+
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.blogParagraph {
+  margin: 0 20px;
+}
+.blogDate {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  background-color: rgb(173, 119, 48);
+
+}
